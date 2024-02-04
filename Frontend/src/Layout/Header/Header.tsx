@@ -7,7 +7,7 @@ function Header(): JSX.Element {
         <header className="Header container">
             <nav>
                 <ul>
-                    <li><strong><a href="/home"><img className="logo" src="logo.svg" /></a></strong></li>
+                    <li><strong><a href="/home"><img className="logo" src="/logo.svg" /></a></strong></li>
                 </ul>
                 <Menu />
             </nav>
