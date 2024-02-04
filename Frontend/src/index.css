@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.2s;
+}
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+}
+
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --primary: #ff5a5f !important;
+  --primary-focus: #ff8b8f6a!important;
+  --primary-hover: #d1494e  !important;
+}

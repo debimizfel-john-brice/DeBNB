@@ -1,0 +1,44 @@
+.Vacation {
+
+        & article {
+                border-radius: 10px;
+                overflow: hidden;
+                padding: 0px;
+                position: relative;
+                width: 360px;
+        }
+
+        & .card_image {
+                background-position: center;
+                background-size: cover;
+                height: 250px;
+                width: 100%;
+        }
+
+        & .card_content {
+                padding: 10px;
+        }
+
+        & .price {
+
+                display: flex;
+                justify-content: right;
+
+                & a {
+                        height: 50px;
+                        padding-top: 10px;
+                        width: 160px
+                }
+        }
+
+        & .description {
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp: 6;
+                line-height: 1.8em;
+                max-height: 11em;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                word-wrap: break-word;
+        }
+}

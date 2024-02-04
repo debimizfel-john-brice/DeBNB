@@ -1,0 +1,19 @@
+.Header {
+    & nav {
+        display: flex;
+        gap: 20px;
+
+        & a {
+
+            text-decoration: unset;
+        }
+
+        & .active {
+            font-weight: bolder;
+        }
+
+        & .logo {
+            height: 40px;
+        }
+    }
+}

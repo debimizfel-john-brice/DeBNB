@@ -1,0 +1,14 @@
+.EditVacation {
+    margin: auto;
+    margin-top: 20px;
+    width: max-content;
+
+    & .input {
+        margin-bottom: 10px;
+    }
+
+    .validation {
+        /* margin-top: 10px; */
+        color: red;
+    }
+}

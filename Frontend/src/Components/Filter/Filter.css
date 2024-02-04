@@ -1,0 +1,9 @@
+.Filter {
+  
+   display: flex;
+   justify-content: center;
+
+   & .select{
+      max-width: 400px;
+   }
+}

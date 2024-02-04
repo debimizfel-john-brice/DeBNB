@@ -1,0 +1,7 @@
+.VacationsChunk {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0px 8px;
+        justify-content: space-evenly;
+}

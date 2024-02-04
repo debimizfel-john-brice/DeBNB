@@ -1,0 +1,18 @@
+.Vacations {
+    & .pagination {
+        justify-content: center;
+
+
+        & a {
+            background-color: white;
+            border-color: white;
+            color: #ff5a5f;
+            pointer-events: all !important;
+            opacity: 1 !important;
+        }
+
+        & a:hover{
+            background-color: #ff8b8f6a;
+        }
+    }
+}

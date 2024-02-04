@@ -1,0 +1,12 @@
+.Background {
+    background-attachment: fixed;
+    background-image: url("../../Assets/Images/backgraound.jpg");
+    background-position: center 30%;
+    background-size: cover;
+    min-height: 100vh;
+
+    & .overlay {
+        background-image: linear-gradient(rgba(35, 35, 35, 0.639), rgba(0, 0, 0, 0));
+        height: 100%;
+    }
+}

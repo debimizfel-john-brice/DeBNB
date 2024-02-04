@@ -1,0 +1,7 @@
+.LetsgoButton {
+    & .button {
+        background-color: white;
+        border-color: white;
+        color: rgb(77, 77, 77);
+    }
+}

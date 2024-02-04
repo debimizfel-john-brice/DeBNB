@@ -1,0 +1,11 @@
+.VacationsReport {
+    margin: 0 auto;
+    max-width: 1050px;
+
+    & .download_button {
+        margin-top: 20px;
+       display: flex;
+       justify-content: right;
+       gap: 15px;
+    }
+}
