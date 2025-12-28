@@ -70,8 +70,6 @@ Users see updates instantly without needing to refresh the page.
 - Visual like indicators
 - Clean, user-focused design
 
-*(Design reference images are included in the repository.)*
-
 ---
 
 ## 🎯 Project Purpose
@@ -84,15 +82,6 @@ This project was built to:
 - Build a full CRUD system with permissions
 - Handle real-time state updates
 - Create a clean and intuitive user experience
-
----
-
-## 📌 Future Improvements
-
-- Advanced search (dates, location)
-- User profile page
-- Public deployment
-- Automated testing
 
 ---
 
